@@ -1,0 +1,192 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:black;
+color:white;
+}
+
+nav{
+    background:light rgb(33, 30, 30);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:red;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color:rgb(26, 147, 188);
+}
+
+#hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;   
+    gap:50px;
+    padding:60px;
+    background:white;  
+    color:black; 
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    margin-bottom:20px;   
+    line-height:1.6;
+}
+
+.hero-image img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.btn{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background: rgb(80, 80, 80);;
+}
+
+#resume{
+    text-align:center;
+    padding:50px;
+}
+
+#resume .btn{
+    background:rgb(57, 121, 200);
+    color:white;
+}
+
+#contact{
+    text-align:center;
+    padding:50px;
+    background: white;
+    color:black;
+}
+
+#contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+#about{
+    text-align:center;
+    padding:50px;
+    background:black;
+    color:white;
+}
+
+#about p{
+    max-width:500px;
+    margin:0 auto;
+    line-height:1.8;
+}
+
+#skills{
+    text-align:center;
+    padding:50px;
+    background:white;
+}
+
+#skills h2{
+   color:black;
+}
+
+.skill-box{
+    margin-top:20px;
+}
+
+.skill-box span{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:10px 20px;
+    margin:10px;
+    border-radius:20px;
+}
+
+#projects{
+    text-align:center;
+    padding:50px;
+    background:white;
+}
+
+#projects h2,
+#projects h3{
+    color:black;
+}
+
+.project{
+    background:white;
+    color:black;
+    width:60%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.project h3{
+    color:black;
+}
+
+.project p{
+    color:black;
+}
+
+.project:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
